@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>HealthtifyWork</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<a class="navbar-brand" href="index.html">
+					<img src="images/HW.png" alt="" id="logo1">
+				   </a>
+				<p id="texto">Somos una plataforma que conecta profesionales con empresas que busquen implementar programas nutricionales en la era posterior a COVID 19.<br> ¿Formas parte de una empresa y quieres formar parte de nuestra plataforma? <br>¡Preinscríbete! y recibe actualizaciones sobre la plataforma.<br> </p>
+			</header>
+
+		<!-- Signup Form -->
+			<form id="signup-form" action="POST" data-netlify="true">
+				<input type="text" name="name" id="name" placeholder="Nombre de la organización"/>
+				<input type="email" name="email" id="email" placeholder="Correo Electronico"/>
+				<div class="field">
+					<label for="giro" style="margin-top: 0.5%;">¿Cual es el giro de tu empresa?</label>
+					<select name="listagiro" id="giro">
+						<option value="a">Industrial</option>
+						<option value="b">Comercial</option>
+						<option value="c">De Servicios</option>
+					</select>
+				</div>
+				<div class="field">
+					<div data-netlify-recaptcha="true"></div>
+				</div>
+				<input type="submit" value="¡Estoy dentro!" />
+			</form>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<ul class="icons">
+					<!--<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+					<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+					<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li> -->
+					<li><a href="mailto:healthtifywork@gmail.com" class="icon fa-envelope"><span class="label">Email</span></a></li>
+				</ul>
+				<ul class="copyright">
+					<li>&copy; HealthtifyWork.</li><li>Desarrollado por: <a href="">The Data Hive Company</a></li>
+				</ul>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/main.js"></script>
+			<script>(function(t,e,s,o){var n,a,c;t.SMCX=t.SMCX||[],e.getElementById(o)||(n=e.getElementsByTagName(s),a=n[n.length-1],c=e.createElement(s),c.type="text/javascript",c.async=!0,c.id=o,c.src="https://widget.surveymonkey.com/collect/website/js/tRaiETqnLgj758hTBazgdz1sDiv3Z30bKQUOPIRoGkejGbQmpiA_2FIo8eRFs18Zwj.js",a.parentNode.insertBefore(c,a))})(window,document,"script","smcx-sdk");</script>
+
+	</body>
+</html>
